@@ -1,0 +1,39 @@
+html, body {
+    width: 100%;
+    min-height: 100%;
+    background: url(209102.jpg);
+    background-size: cover;
+    font-family: 'Hubballi', sans-serif;
+    color: #ffffff;
+    position: fixed;
+    letter-spacing: .2rem;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    margin: 12px;
+    font-size: 32px;
+    margin-top: 0;
+    letter-spacing: 5px;
+}
+
+
+about {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-right: 12px;
+}
+
+.how-to-use-container {
+  margin: auto;
+  background-color: #d9d9d94b;
+  width: 1200px;
+  height: 205px;
+  border-radius: 30px;
+/*     animation: myAnim 0.5s ease 0s 1 normal forwards; */
+}
