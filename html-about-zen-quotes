@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zen Quotes</title> 
+    <title>Zen Quotes</title>
 <!--     <link rel="stylesheet" href="style.css"> -->
   <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 
 
-  
+
 <body>
 
 <nav class="nav">
@@ -20,7 +20,7 @@
 </nav>
 <main>
 <div class="how-to-use-container">
-  <div class="header"
+  <div class="header">
     <h1>How to use</h1>
    </div>
   <div class="tutorial">
@@ -48,7 +48,7 @@
  </p>
 </div>
 </div>
-  
+
 
 </main>
 </body>
