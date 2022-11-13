@@ -35,7 +35,7 @@ html, body {
     background-color: #d9d9d94b;
     display: flex;
     width: 688px;
-    height: 500px;
+    height: 475px;
     margin-left: 15%;
     border-radius: 30px;
     animation: myAnim 0.5s ease 0s 1 normal forwards;
@@ -85,18 +85,22 @@ html, body {
     letter-spacing: 4px;
 }
 
+.new-quote-button:hover, .share-button:hover {
+    background-color: #d9d9d9ab;
+}
+
 .breathe-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 15%;
     width: 688px;
-    padding-top: 40px;
+    padding-top: 60px;
 }
 
 .breathe-button {
     width: 688px;
-    background-color: #659d25;
+    background-color: #659d25e2;
     height: 54px;
     border-radius: 30px;
     border: none;
@@ -104,6 +108,10 @@ html, body {
     color: white;
     font-weight: 100;
     letter-spacing: 4px;
+}
+
+.breathe-button:hover {
+    background-color: #6cac22;
 }
 
 .timer {
