@@ -3,13 +3,15 @@
 html, body {
     width: 100%;
     min-height: 100%;
-    background: url(assets/209102.jpg);
-    background-size: cover;
     font-family: 'Hubballi', sans-serif;
     color: white;
     position: fixed;
 }
 
+.home-bg {
+    background: url(assets/209102.jpg);
+    background-size: cover;
+}
 
 .nav {
     display: flex;
