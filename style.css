@@ -110,3 +110,21 @@ html, body {
     font-weight: 100;
     letter-spacing: 24px;
 }
+
+
+/* About Page CSS */
+
+.about {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-right: 12px;
+}
+
+.how-to-use-container {
+  margin: auto;
+  background-color: #d9d9d94b;
+  width: 1200px;
+  height: 205px;
+  border-radius: 30px;
+}
