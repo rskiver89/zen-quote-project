@@ -3,11 +3,14 @@
 html, body {
     width: 100%;
     min-height: 100%;
-    background: url(assets/209102.jpg);
-    background-size: cover;
     font-family: 'Hubballi', sans-serif;
     color: white;
     position: fixed;
+}
+
+.home-bg {
+    background: url(assets/209102.jpg);
+    background-size: cover;
 }
 
 
@@ -23,7 +26,7 @@ html, body {
 }
 
 
-.about {
+.about, .site-name {
     text-decoration: none;
     color: white;
     padding-right: 12px;
@@ -114,17 +117,94 @@ html, body {
 
 /* About Page CSS */
 
-.about {
-    display: flex;
-    text-decoration: none;
-    color: white;
-    padding-right: 12px;
+
+.about-bg {
+    background: url(assets/209102blur.jpg);
+    background-size: cover;
 }
+
+@media (max-width:1000px) {
+    .about-bg {
+        background: url(assets/209102blur.jpg);
+    }
+}
+
+.about-main {
+    margin: 48px;
+}
+
 
 .how-to-use-container {
   margin: auto;
   background-color: #d9d9d94b;
-  width: 1200px;
-  height: 205px;
+  width: 80%;
+  height: 260px;
   border-radius: 30px;
+  padding: 16px;
+  font-size: 20px;
+}
+
+@media (max-width:1000px) {
+    .how-to-use-container {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        font-size: 16px;
+        margin-top: 16px;
+    }
+}
+
+.tutorial-list {
+    line-height: 2;
+    text-decoration: none;
+    list-style: circle;
+}
+
+
+.header {
+    margin-top: -15px;
+    text-align: center;
+}
+
+.creators {
+    text-align: center;
+    font-size: 20px;
+}
+
+@media (max-width:1000px) {
+    .creators {
+        font-size: 16px;
+    }
+}
+
+.container-devs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-ryan, .container-everitt {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #d9d9d94b;
+    border-radius: 30px;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+}
+
+@media (max-width:1000px) {
+    .container-devs {
+        display: block;
+    }
+}
+
+@media (max-width:1000px) {
+    .container-ryan, .container-everitt {
+        width: 90%;
+        height: 190px;
+        margin: auto;
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
 }
