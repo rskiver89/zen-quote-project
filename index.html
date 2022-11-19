@@ -9,29 +9,32 @@
 </head>
 <body>
 
-<nav class="nav">
-  <h1 class="site-name">Zen Quotes</h1>
-  <a href="" class="about">About</a>
-</nav>
+  <nav class="nav">
+    <h3 class="name"><a href="index.html" class="site-name">Zen Quotes</a></h3>
+    <a href="about.html" class="about">About</a>
+  </nav>
 
-<main class="main">
-  <div class="quote-container">
-    <div class="quote-card">
-        <p class="quote">“To think in terms of either pessimism or optimism oversimplifies the truth. The problem is to see reality as it is.”</p>
-        <p class="originator"> – Thich Nhat Hanh</p>
+  <main class="main">
+    <div class="quote-container">
+      <div class="quote-card">
+        <p class="start-quote">"</p>
+        <p class="quote">To think in terms of either pessimism or optimism oversimplifies the truth. The problem is to see reality as it is.</p>
+        <p class="end-quote">"</p>
+        <p class="author">Thich Nhat Hanh</p>
+      </div>
     </div>
-  </div>
 
-  <div class="quote-buttons">
-    <button class="new-quote-button">New Quote</button>
-    <button class="share-button">Share</button>
-  </div>
+    <div class="quote-buttons">
+      <button class="new-quote-button">New Quote</button>
+      <button class="share-button">Share</button>
+    </div>
 
   <div class="breathe-container">
+    <audio src="assets/alarm.mp3" id="audio"></audio>
     <button class="breathe-button">Breathe</button>
     <h2 class="timer">1:00</h2>
   </div>
 </main>
-
+<script src="script.js"></script>
 </body>
 </html>
