@@ -12,17 +12,14 @@ html, body {
 .home-bg {
     background: url(assets/209102.jpg);
     background-size: cover;
-    
+
 }
 
-//<<<<<<< About-page
-=======
 @media (max-width:950px) {
     .home-bg {
         background: url(assets/209102.jpg);
     }
 }
->>>>>>> main//
 
 .nav {
     display: flex;
