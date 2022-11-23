@@ -17,6 +17,7 @@ function countdown() {
     tick();
     breatheButton.classList.add('breathe-button-active');
     breatheButton.classList.remove('breathe-button');
+    breatheButton.removeEventListener('click', countdown);
     setTimeout(() => {
         breatheButton.classList.add('breathe-button');
     }, 60000);
@@ -25,6 +26,9 @@ function countdown() {
     }, 60000);
     setTimeout(() => {
         document.getElementById("audio").play() = '#659d25e2';
+    }, 60000);
+    setTimeout(() => {
+        breatheButton.addEventListener('click', countdown);
     }, 60000);
 }
 breatheButton.addEventListener('click', countdown);
