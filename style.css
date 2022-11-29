@@ -132,7 +132,7 @@ html, body {
 .share-button-icons {
     position: absolute;
     width: 220px;
-    bottom: 331px;
+    bottom: 351px;
     padding-left: 0;
     display: flex;
     justify-content: space-around;
@@ -146,7 +146,7 @@ html, body {
 @media (max-width:950px) {
     .share-button-icons {
         width: 487px;
-        bottom: 314px;
+        bottom: 316px;
     }
     .social-icon {
         width: 35px;
