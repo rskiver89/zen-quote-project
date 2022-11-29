@@ -32,3 +32,17 @@ function countdown() {
     }, 60000);
 }
 breatheButton.addEventListener('click', countdown);
+
+
+
+// Share Button Links
+
+const link = encodeURI(window.location.href);
+const title = encodeURIComponent(document.querySelector('title').textContent);
+
+const facebook = document.querySelector('.facebook');
+facebook.href = `https://www.facebook.com/share.php?u=${link}`;
+const twitter = document.querySelector('.twitter');
+twitter.href = `http://www.twitter.com/share?&url=${link}&text=${title}&hashtag=zen`;
+const reddit = document.querySelector('.reddit');
+reddit.href = `http://www.reddit.com/submit?&url=${link}&title=${title}`;
