@@ -349,3 +349,8 @@ html, body {
         margin-bottom: 16px;
     }
 }
+
+.sharethis-inline-share-buttons {
+    position: relative;
+    top: 28px;
+}
