@@ -45,7 +45,7 @@ html, body {
     margin-left: 15%;
     margin-top: 20px;
     border-radius: 30px;
-    transition: .3s linear;
+    transition: .2s linear;
 }
 
 @media (max-width:950px) {
@@ -119,7 +119,7 @@ html, body {
     font-weight: 100;
     overflow: hidden;
     letter-spacing: 4px;
-    transition: .3s linear;
+    transition: .2s linear;
 }
 
 @media (max-width:950px) {
@@ -193,7 +193,7 @@ html, body {
     color: white;
     font-weight: 100;
     letter-spacing: 4px;
-    transition: .3s linear;
+    transition: .2s linear;
 }
 
 .breathe-button:hover {
@@ -264,6 +264,7 @@ html, body {
   border-radius: 30px;
   padding: 16px;
   font-size: 20px;
+  transition: .2s linear;
 }
 
 @media (max-width:1000px) {
@@ -313,6 +314,7 @@ html, body {
     text-align: center;
     padding: 12px;
     font-size: 20px;
+    transition: .2s linear;
 }
 
 @media (max-width:1000px) {
