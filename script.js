@@ -12,24 +12,19 @@ function countdown() {
         counter.innerHTML = current_minutes.toString() + ":" + (seconds < 10 ? "0" : "") + String(seconds);
         if( seconds > 0 ) {
             setTimeout(tick, 1000);
+            breatheButton.classList.add('breathe-button-active');
+            breatheButton.classList.remove('breathe-button');
+            breatheButton.removeEventListener('click', countdown)
         }
+        else if(seconds == 0) {
+                counter.innerHTML = "1:00";
+                breatheButton.classList.add('breathe-button');
+                breatheButton.classList.remove('breathe-button-active');
+                breatheButton.addEventListener('click', countdown);
+                document.getElementById("audio").play() = '#659d25e2';
+            }
     }
     tick();
-    breatheButton.classList.add('breathe-button-active');
-    breatheButton.classList.remove('breathe-button');
-    breatheButton.removeEventListener('click', countdown);
-    setTimeout(() => {
-        breatheButton.classList.add('breathe-button');
-    }, 60000);
-    setTimeout(() => {
-        breatheButton.classList.remove('breathe-button-active');
-    }, 60000);
-    setTimeout(() => {
-        document.getElementById("audio").play() = '#659d25e2';
-    }, 60000);
-    setTimeout(() => {
-        breatheButton.addEventListener('click', countdown);
-    }, 60000);
 }
 breatheButton.addEventListener('click', countdown);
 
@@ -46,3 +41,4 @@ const twitter = document.querySelector('.twitter');
 twitter.href = `http://www.twitter.com/share?&url=${link}&text=${title}&hashtag=zen`;
 const reddit = document.querySelector('.reddit');
 reddit.href = `http://www.reddit.com/submit?&url=${link}&title=${title}`;
+q
