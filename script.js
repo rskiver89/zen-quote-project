@@ -41,4 +41,19 @@ const twitter = document.querySelector('.twitter');
 twitter.href = `http://www.twitter.com/share?&url=${link}&text=${title}&hashtag=zen`;
 const reddit = document.querySelector('.reddit');
 reddit.href = `http://www.reddit.com/submit?&url=${link}&title=${title}`;
-q
+
+
+// New Quote Button
+
+const quoteText = document.querySelector('.quote');
+const author = document.querySelector('.author')
+const quoteButton = document.querySelector('.new-quote-button');
+
+function randomQuote() {
+    fetch("https://api.quotable.io/random").then(res => res.json()).then(result => {
+    console.log(result);
+    quoteText.innerText = result.content;
+    author.innerText = result.author;
+    });
+}
+quoteButton.addEventListener("click", randomQuote);
