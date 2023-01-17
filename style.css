@@ -14,11 +14,6 @@ html, body {
     background-size: cover;
 }
 
-@media (max-width:950px) {
-    .home-bg {
-        background: url(assets/209102.jpg);
-    }
-}
 
 .nav {
     display: flex;
@@ -48,14 +43,7 @@ html, body {
     transition: .2s linear;
 }
 
-@media (max-width:950px) {
-    .quote-container {
-        width: 500px;
-        height: 435px;
-        margin: auto;
-        margin-top: 24px;
-    }
-}
+
 
 .quote-card {
     width: 100%;
@@ -64,11 +52,6 @@ html, body {
     font-family: 'IM Fell Double Pica', serif;
 }
 
-@media (max-width:950px) {
-    .quote-card {
-        font-size: 24px;
-    }
-}
 
 .quote {
     margin: auto;
@@ -100,13 +83,6 @@ html, body {
     padding-bottom: 16px;
 }
 
-@media (max-width:950px) {
-    .quote-buttons {
-        display: block;
-        width: 500px;
-        margin: auto;
-    }
-}
 
 .new-quote-button, .share-button {
     background-color: #d9d9d94b;
@@ -122,12 +98,6 @@ html, body {
     transition: .2s linear;
 }
 
-@media (max-width:950px) {
-    .new-quote-button, .share-button {
-        margin-top: 40px;
-        width: 500px;
-    }
-}
 
 .share-button-icons {
     position: absolute;
@@ -143,16 +113,6 @@ html, body {
     width: 30px;
 }
 
-@media (max-width:950px) {
-    .share-button-icons {
-        width: 487px;
-        bottom: 316px;
-    }
-    .social-icon {
-        width: 35px;
-    }
-
-}
 
 .new-quote-button:hover, .share-button:hover {
     background-color: #d9d9d9ab;
@@ -220,13 +180,6 @@ html, body {
     letter-spacing: 4px;
 }
 
-@media(max-width:950px) {
-    .breathe-button, .breathe-container, .breathe-button-active {
-        width: 500px;
-        margin: auto;
-        margin-top: -16px;
-    }
-}
 
 .timer {
     font-size: 120px;
@@ -245,11 +198,6 @@ html, body {
     background-size: cover;
 }
 
-@media (max-width:950px) {
-    .about-bg {
-        background: url(assets/209102blur.jpg);
-    }
-}
 
 .about-main {
     margin: 48px;
@@ -267,15 +215,6 @@ html, body {
   transition: .2s linear;
 }
 
-@media (max-width:1000px) {
-    .how-to-use-container {
-        width: 90%;
-        height: auto;
-        margin: auto;
-        font-size: 16px;
-        margin-top: 16px;
-    }
-}
 
 .tutorial-list {
     line-height: 2;
@@ -294,11 +233,6 @@ html, body {
     font-size: 20px;
 }
 
-@media (max-width:1000px) {
-    .creators {
-        font-size: 16px;
-    }
-}
 
 .container-devs {
     display: flex;
@@ -317,6 +251,93 @@ html, body {
     transition: .2s linear;
 }
 
+
+
+.sharethis-inline-share-buttons {
+    position: relative;
+    top: 28px;
+}
+
+
+
+
+@media (max-width:950px) {
+    .home-bg {
+        background: url(assets/209102.jpg);
+    }
+}
+
+@media (max-width:950px) {
+    .quote-container {
+        width: 500px;
+        height: 435px;
+        margin: auto;
+        margin-top: 24px;
+    }
+}
+
+@media (max-width:950px) {
+    .quote-card {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:950px) {
+    .quote-buttons {
+        display: block;
+        width: 500px;
+        margin: auto;
+    }
+}
+
+@media (max-width:950px) {
+    .new-quote-button, .share-button {
+        margin-top: 40px;
+        width: 500px;
+    }
+}
+
+@media (max-width:950px) {
+    .share-button-icons {
+        width: 487px;
+        bottom: 316px;
+    }
+    .social-icon {
+        width: 35px;
+    }
+
+}
+
+@media(max-width:950px) {
+    .breathe-button, .breathe-container, .breathe-button-active {
+        width: 500px;
+        margin: auto;
+        margin-top: -16px;
+    }
+}
+
+@media (max-width:950px) {
+    .about-bg {
+        background: url(assets/209102blur.jpg);
+    }
+}
+
+@media (max-width:1000px) {
+    .how-to-use-container {
+        width: 90%;
+        height: auto;
+        margin: auto;
+        font-size: 16px;
+        margin-top: 16px;
+    }
+}
+
+@media (max-width:1000px) {
+    .creators {
+        font-size: 16px;
+    }
+}
+
 @media (max-width:1000px) {
     .container-devs {
         display: block;
@@ -331,10 +352,4 @@ html, body {
         font-size: 16px;
         margin-top: 12px;
     }
-}
-
-
-.sharethis-inline-share-buttons {
-    position: relative;
-    top: 28px;
 }
