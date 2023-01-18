@@ -259,56 +259,45 @@ html, body {
 }
 
 
+/* Homepage Media Quieries  */
 
 
 @media (max-width:950px) {
     .home-bg {
         background: url(assets/209102.jpg);
     }
-}
 
-@media (max-width:950px) {
     .quote-container {
         width: 500px;
         height: 435px;
         margin: auto;
         margin-top: 24px;
     }
-}
 
-@media (max-width:950px) {
     .quote-card {
         font-size: 24px;
     }
-}
 
-@media (max-width:950px) {
     .quote-buttons {
         display: block;
         width: 500px;
         margin: auto;
     }
-}
 
-@media (max-width:950px) {
     .new-quote-button, .share-button {
         margin-top: 40px;
         width: 500px;
     }
-}
 
-@media (max-width:950px) {
     .share-button-icons {
         width: 487px;
         bottom: 316px;
     }
+
     .social-icon {
         width: 35px;
     }
 
-}
-
-@media(max-width:950px) {
     .breathe-button, .breathe-container, .breathe-button-active {
         width: 500px;
         margin: auto;
@@ -316,13 +305,14 @@ html, body {
     }
 }
 
-@media (max-width:950px) {
+
+/* About Page Media Quiries */
+
+@media (max-width:1000px) {
     .about-bg {
         background: url(assets/209102blur.jpg);
     }
-}
 
-@media (max-width:1000px) {
     .how-to-use-container {
         width: 90%;
         height: auto;
@@ -330,21 +320,15 @@ html, body {
         font-size: 16px;
         margin-top: 16px;
     }
-}
 
-@media (max-width:1000px) {
     .creators {
         font-size: 16px;
     }
-}
 
-@media (max-width:1000px) {
     .container-devs {
         display: block;
     }
-}
 
-@media (max-width:1000px) {
     .container-ryan, .container-everitt {
         width: 90%;
         height: 180px;
