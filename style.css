@@ -10,7 +10,7 @@ html, body {
 }
 
 .home-bg {
-    background: url(assets/209102.jpg);
+    background: url('assets/209102.jpg');
     background-size: cover;
 }
 
@@ -194,7 +194,7 @@ html, body {
 
 
 .about-bg {
-    background: url(assets/209102blur.jpg);
+    background: url('assets/209102blur.jpg');
     background-size: cover;
 }
 
@@ -264,7 +264,7 @@ html, body {
 
 @media (max-width:950px) {
     .home-bg {
-        background: url(assets/209102.jpg);
+        background: url('assets/209102.jpg');
     }
 
     .quote-container {
@@ -305,12 +305,65 @@ html, body {
     }
 }
 
+@media (max-width:400px) {
+    main {
+        width: 90%;
+    }
+
+    .nav {
+        font-size: 24px;
+    }
+
+    .quote-container {
+        width: 350px;
+        height: 325px;
+        margin: auto;
+        margin-top: 24px;
+    }
+
+    .quote {
+        margin-top: 50px;
+    }
+
+
+    .quote-card, .start-quote, .end-quote {
+        font-size: 18px;
+    } 
+
+    .new-quote-button, .share-button, .breathe-button {
+        margin-top: 40px;
+        width: 350px;
+        height: 40px;
+        margin: 12px 0;
+    }
+
+    .share-button-icons {
+        width: 340px;
+        bottom: 210px;
+    }
+
+    .social-icon {
+        width: 24px;
+        
+    }
+
+    .breathe-button, .breathe-container, .breathe-button-active {
+        width: 350px;
+        margin: auto;
+        margin-top: -32px;
+    }
+
+    .timer {
+        font-size: 80px;
+    }
+}
+
 
 /* About Page Media Quiries */
 
 @media (max-width:1000px) {
     .about-bg {
-        background: url(assets/209102blur.jpg);
+        background: url('assets/209102blur.jpg');
     }
 
     .how-to-use-container {
@@ -332,8 +385,29 @@ html, body {
     .container-ryan, .container-everitt {
         width: 90%;
         height: 180px;
-        margin: auto;
         font-size: 16px;
-        margin-top: 12px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .about-main {
+        margin-left: 0px;
+    }
+
+    .how-to-use-container {
+        font-size: 12px;
+        width: 95%;
+    }
+
+    .creators {
+        font-size: 12px;
+        margin-top: 48px;
+    }
+
+    .container-ryan, .container-everitt {
+        width: 95%;
+        font-size: 12px;
+        margin-top: 24px;
     }
 }
