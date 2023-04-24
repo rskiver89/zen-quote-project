@@ -10,7 +10,7 @@ html, body {
 }
 
 .home-bg {
-    background: url('assets/209102.jpg');
+    background: url('./assets/209102.jpg');
     background-size: cover;
 }
 
@@ -194,7 +194,7 @@ html, body {
 
 
 .about-bg {
-    background: url('assets/209102blur.jpg');
+    background: url('./assets/209102blur.jpg');
     background-size: cover;
 }
 
@@ -264,7 +264,7 @@ html, body {
 
 @media (max-width:950px) {
     .home-bg {
-        background: url('assets/209102.jpg');
+        background: url('./assets/209102.jpg');
     }
 
     .quote-container {
@@ -315,10 +315,11 @@ html, body {
     }
 
     .quote-container {
-        width: 350px;
+        width: 355px;
         height: 325px;
         margin: auto;
-        margin-top: 24px;
+        margin: 16px 0;
+
     }
 
     .quote {
@@ -330,9 +331,9 @@ html, body {
         font-size: 18px;
     } 
 
-    .new-quote-button, .share-button, .breathe-button {
+    .new-quote-button, .share-button, .breathe-button, .breathe-button-active {
         margin-top: 40px;
-        width: 350px;
+        width: 355px;
         height: 40px;
         margin: 12px 0;
     }
@@ -348,8 +349,7 @@ html, body {
     }
 
     .breathe-button, .breathe-container, .breathe-button-active {
-        width: 350px;
-        margin: auto;
+        width: 355px;
         margin-top: -32px;
     }
 
@@ -363,7 +363,7 @@ html, body {
 
 @media (max-width:1000px) {
     .about-bg {
-        background: url('assets/209102blur.jpg');
+        background: url('./assets/209102blur.jpg');
     }
 
     .how-to-use-container {
