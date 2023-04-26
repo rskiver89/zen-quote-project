@@ -378,10 +378,6 @@ html, body {
         font-size: 16px;
     }
 
-    .container-devs {
-        display: block;
-    }
-
     .container-ryan, .container-everitt {
         width: 90%;
         height: 180px;
